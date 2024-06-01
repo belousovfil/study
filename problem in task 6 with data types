@@ -1,1 +1,16 @@
-Cannot find right answer.
+//Cannot find right answer.
+using System;
+public class MainClass
+{
+    public static void Main()
+    {
+        Console.WriteLine("Введите вес товара");
+        var weight = Convert.ToDecimal(Console.ReadLine());
+        Console.WriteLine("Введите цену товара");
+        var price = Convert.ToDecimal(Console.ReadLine());
+
+        var fairPrice = ...// Write your code here
+
+        Console.WriteLine($"Цена товара за килограмм = {fairPrice}");
+    }
+} 
