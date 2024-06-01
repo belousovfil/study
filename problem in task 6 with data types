@@ -1,4 +1,6 @@
-//Cannot find right answer.
+//Cannot find right answer. пользователь вводит вес в грамах и цену. Вычислите стоимость товара
+//за один килограм и выводящий в консоль результат с округлением до двух знаков после запятой
+// для округления используйте метод Math.Round(Decimal, int32)
 using System;
 public class MainClass
 {
@@ -9,7 +11,7 @@ public class MainClass
         Console.WriteLine("Введите цену товара");
         var price = Convert.ToDecimal(Console.ReadLine());
 
-        var fairPrice = ...// Write your code here
+        var fairPrice = 705;//...// Write your code here
 
         Console.WriteLine($"Цена товара за килограмм = {fairPrice}");
     }
