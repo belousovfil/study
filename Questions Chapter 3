@@ -1,0 +1,24 @@
+4. What is the difference between x = y++; and x = ++y;?
+consider y=1 and x=2 so when the condition is y = ++x first the computer will add 1 to the value of x and then give it to y, 
+so the value of y becomes 3,and when there is y = x++ the value is first given to y and then 1 is added so in this condition value 
+of y is 2.
+
+5. What is the difference between break, continue, and return when used inside a
+loop statement?
+The break statement terminates the closest enclosing iteration statement or switch statement. The continue statement starts a 
+new iteration of the closest enclosing iteration statement. 
+The return statement terminates execution of the function in which it appears and returns control to the caller.
+
+6. What are the three parts of a for statement and which of them are required?
+initialization, condition, and advancement. All three parts are optional, though most of the time you'll need them all.
+
+7. What is the difference between the = and == operators?
+"=" is used to assign a value to a variable. "==" is used to compare two values for equivalence.
+
+8. Does the following statement compile?
+for ( ; true; ) ;
+
+9. What does the underscore _ represent in a switch expression?
+The underscore (_) represents the default optional case, similar to the default keyword in a traditional switch statement.
+10. What interface must an object implement to be enumerated over by using the foreach statement?
+The IEnumerable interface permits enumeration by using a foreach loop.
