@@ -1,0 +1,77 @@
+4. What is the difference between x = y++; and x = ++y;?
+consider y=1 and x=2 so when the condition is y = ++x first the computer will add 1 to the value of x and then give it to y, 
+so the value of y becomes 3,and when there is y = x++ the value is first given to y and then 1 is added so in this condition value 
+of y is 2.
+
+5. What is the difference between break, continue, and return when used inside a
+loop statement?
+The break statement terminates the closest enclosing iteration statement or switch statement. The continue statement starts a 
+new iteration of the closest enclosing iteration statement. 
+The return statement terminates execution of the function in which it appears and returns control to the caller.
+
+6. What are the three parts of a for statement and which of them are required?
+initialization, condition, and advancement. All three parts are optional, though most of the time you'll need them all.
+
+7. What is the difference between the = and == operators?
+"=" is used to assign a value to a variable. "==" is used to compare two values for equivalence.
+
+8. Does the following statement compile?
+for ( ; true; ) ;
+
+9. What does the underscore _ represent in a switch expression?
+The underscore (_) represents the default optional case, similar to the default keyword in a traditional switch statement.
+
+10. What interface must an object implement to be enumerated over by using the foreach statement?
+The IEnumerable interface permits enumeration by using a foreach loop.
+
+Chapter 4 questions.
+
+1. Что означает в языке C# ключевое слово void?
+You use void as the return type of a method (or a local function) to specify that the method doesn't return a value.
+
+2. Сколько параметров может содержаться в методе?
+imperative programming is a programming paradigm of software that uses statements that change a program's state. 
+In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for 
+the computer to perform. Imperative programming
+focuses on describing how a program operates step by step, rather than on high-level descriptions of its expected results.
+
+3. Какова разница между сочетаниями клавиш F5, Ctrl или Cmd+F5, Shift+F5 и Ctrl, или Cmd+Shift+F5 в программе Visual Studio Code?
+
+4. Куда записывает выходные данные метод Trace.WriteLine?
+In "Output" Tab (View | Output, or Ctrl+Alt+O) in Visual Studio.
+
+5. Каковы пять уровней трассировки?
+Error	1	
+Output error-handling messages.
+
+Info	3	
+Output informational messages, warnings, and error-handling messages.
+
+Off	0	
+Output no tracing and debugging messages.
+
+Verbose	4	
+Output all debugging and tracing messages.
+
+Warning	2	
+Output warnings and error-handling messages.
+
+6. В чем разница между классами Debug и Trace?
+ The main advantage of using trace over debugging is to do a performance analysis, 
+ which can't be accomplished on the debugging end. What's more, trace runs on a different thread.
+
+7. Как называются три части правильного модульного теста?
+Написать код unit-теста.
+Запустите код модульного тестирования, чтобы проверить, соответствует ли он системным требованиям.
+Выполнить программный код, чтобы проверить его на наличие дефектов и убедиться, что код соответствует системным требованиям.
+
+8. При написании модульного теста с помощью xUnit каким атрибутом вы должны дополнять методы тестирования?
+This method is decorated with the Fact attribute, which tells xUnit that this is a test.
+
+9. Какая команда dotnet выполняет тесты xUnit?
+dotnet test - .NET test driver used to execute unit tests.
+
+10. Что такое TDD?
+Test-Driven Development (or TDD for short) is one of the most essential software development practices. It is a practice based on 
+the simple idea that instead of writing 
+our code first and then later writing tests for it, we write our tests first, and then we write code that makes those tests pass.
